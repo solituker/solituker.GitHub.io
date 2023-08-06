@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="blog">
+    <meta name="keywords" content="Markdown 语言学习记录 day 1, blog">
     <meta name="description" content="纷扰世间的自留地">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>blog</title>
+    <title>Markdown 语言学习记录 day 1 | blog</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -29,7 +29,7 @@
 
     <script src="/libs/jquery/jquery.min.js"></script>
 
-<meta name="generator" content="Hexo 6.3.0"><link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
+<meta name="generator" content="Hexo 6.3.0"><link rel="stylesheet" href="/css/prism.css" type="text/css"></head>
 
 
 
@@ -266,12 +266,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/0.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/16.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title"></h1>
+                    <h1 class="description center-align post-title">Markdown 语言学习记录 day 1</h1>
                 </div>
             </div>
         </div>
@@ -425,12 +425,102 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="Markdown-语言学习记录-day-1"><a href="#Markdown-语言学习记录-day-1" class="headerlink" title="Markdown 语言学习记录 day 1"></a>Markdown 语言学习记录 day 1</h1><h2 id="一-简介"><a href="#一-简介" class="headerlink" title="一.简介"></a>一.简介</h2><ul>
-<li>Markdown 是一种轻量级的标记语言，可用于在纯文本文档中添加格式化元素。Markdown 由 John Gruber 于 2004 年创建，如今已成为世界上最受欢迎的标记语言之一。</li>
-<li>Markdown 语法的首要设计目标是尽可能易读。基于这个目标，Markdown 格式的文档能够以纯文本形式原样发布，而不会看起来像被填满了标签或格式化指令。</li>
+                <h1 id="Markdown-语言学习记录-day-1"><a href="#Markdown-语言学习记录-day-1" class="headerlink" title="Markdown 语言学习记录 day 1"></a>Markdown 语言学习记录 day 1</h1><h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><blockquote>
+<p>Markdown 是一种轻量级的标记语言，可用于在纯文本文档中添加格式化元素。Markdown 由 John Gruber 于 2004 年创建，如今已成为世界上最受欢迎的标记语言之一。</p>
+</blockquote>
+<p> Markdown 语法的首要设计目标是尽可能易读。基于这个目标，Markdown 格式的文档能够以纯文本形式原样发布，而不会看起来像被填满了标签或格式化指令。</p>
+<ul>
+<li>Markdown文档创作工具：<blockquote>
+<p>Mac: macDown  iA Writer , marked 2<br> iOS &#x2F; android: iA Writer<br> Windows: ghostwriter , markdown monster , vscode<br> Linux: reText , ghostwriter<br> Web: dillinger , stackEdit</p>
+</blockquote>
+</li>
 </ul>
-<hr>
-<h2 id="title-Markdown-语言学习记录-day-1date-2023-08-06-11-14-21tags"><a href="#title-Markdown-语言学习记录-day-1date-2023-08-06-11-14-21tags" class="headerlink" title="title: Markdown 语言学习记录 day 1date: 2023-08-06 11:14:21tags:"></a>title: Markdown 语言学习记录 day 1<br>date: 2023-08-06 11:14:21<br>tags:</h2>
+<h2 id="基本语法"><a href="#基本语法" class="headerlink" title="基本语法"></a>基本语法</h2><h3 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h3><p>采用在单词，短句等前面添加井号(#)的方法来代表标题的级别</p>
+<table>
+<thead>
+<tr>
+<th>示例</th>
+<th>渲染效果</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>#</code>文字示例</td>
+<td><font size=7><strong>文字示例</strong></font></td>
+</tr>
+<tr>
+<td><code>##</code>文字示例</td>
+<td><font size=6><strong>文字示例</strong></font></td>
+</tr>
+<tr>
+<td><code>###</code>文字示例</td>
+<td><font size=5><strong>文字示例</strong></font></td>
+</tr>
+</tbody></table>
+<p>也可以使用在文本下方添加任意数量&#x3D;&#x3D;和—来分别标识一，二级标题</p>
+<table>
+<thead>
+<tr>
+<th>示例</th>
+<th>渲染效果</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>文字示例<br><code>=======</code></td>
+<td><font size=7><strong>文字示例</strong></font></td>
+</tr>
+<tr>
+<td>文字示例<br><code>-------</code></td>
+<td><font size=6><strong>文字示例</strong></font></td>
+</tr>
+</tbody></table>
+<h3 id="换行"><a href="#换行" class="headerlink" title="换行"></a>换行</h3><p>可以采取在一行的末尾添加两个或更多空格，然后回车换行，在表格中换行可以采取在行尾添加<code>&lt;br&gt;</code>来达到换行的效果</p>
+<table>
+<thead>
+<tr>
+<th>示例</th>
+<th>渲染效果</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>文字示例<code>&lt;br&gt;</code>文字示例</td>
+<td>文字示例<br>文字示例</td>
+</tr>
+</tbody></table>
+<h3 id="强调"><a href="#强调" class="headerlink" title="强调"></a>强调</h3><p>可以使用粗体，斜体等等方式来对文字进行强调</p>
+<p>斜体在想要强调的文字前后加上一个星号<code>*</code>或下划线<code>_</code></p>
+<p>粗体在想要强调的文字前后加上两个星号<code>*</code>或下划线<code>_</code></p>
+<p>同时表示粗体斜体在想要强调的文字前后加上三个星号<code>*</code>或下划线<code>_</code>Markdown的众多</p>
+<blockquote>
+<p>应用程序在如何处理单词中间的下划线上意见不一致。为了兼容起见，请用星号标注单词中间的斜体来表示着重。即尽可能使用星号来表示斜体</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>示例</th>
+<th>渲染效果</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>*</code>文字示例<code>*</code></td>
+<td><em>文字示例</em></td>
+</tr>
+<tr>
+<td><code>**</code>文字示例<code>**</code></td>
+<td><strong>文字示例</strong></td>
+</tr>
+<tr>
+<td><code>***</code>文字示例<code>***</code></td>
+<td><em><strong>文字示例</strong></em></td>
+</tr>
+</tbody></table>
+<h3 id="块引用"><a href="#块引用" class="headerlink" title="块引用"></a>块引用</h3><p>要达到块引用的效果,可以在文字或段落的前方添加<code>&gt;</code></p>
+<pre><code>`&gt;`这段话是一个文字示例
+</code></pre>
+<p>渲染效果如下</p>
+<blockquote>
+<p>这段话是一个文字示例文字示例</p>
+</blockquote>
+
                 
             </div>
             <hr/>
@@ -544,9 +634,9 @@
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="">
+                        <img src="/medias/featureimages/16.jpg" class="responsive-img" alt="Markdown 语言学习记录 day 1">
                         
-                        <span class="card-title"></span>
+                        <span class="card-title">Markdown 语言学习记录 day 1</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -582,9 +672,9 @@
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="">
+                        <img src="/medias/featureimages/16.jpg" class="responsive-img" alt="Markdown 语言学习记录 day 1">
                         
-                        <span class="card-title"></span>
+                        <span class="card-title">Markdown 语言学习记录 day 1</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
