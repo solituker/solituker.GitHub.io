@@ -126,7 +126,7 @@ code {
     font-family: Inconsolata, Monaco, Consolas, 'Courier New', Courier, monospace;
     font-size: 0.91rem;
     color: #e96900;
-    background-color: #f8f8f8;
+    background-color: #717070;
     border-radius: 2px;
 }
 
@@ -183,7 +183,7 @@ code {
 
 pre code {
     padding: 0;
-    color: #e8eaf6;
+    color: #585858;
     background-color: #272822;
 }
 
