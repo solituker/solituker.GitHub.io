@@ -103,6 +103,8 @@ blockquote {
 pre {
     padding: 2rem 1rem 1rem 1rem !important;
     border-radius: 0.35rem;
+    background: #3e3d3d;
+    overflow: auto;
     tab-size: 4;
 }
 
@@ -126,7 +128,7 @@ code {
     font-family: Inconsolata, Monaco, Consolas, 'Courier New', Courier, monospace;
     font-size: 0.91rem;
     color: #e96900;
-    background-color: #717070;
+    background-color: #f8f8f8;
     border-radius: 2px;
 }
 
@@ -183,8 +185,8 @@ code {
 
 pre code {
     padding: 0;
-    color: #585858;
-    background-color: #272822;
+    color: #ffffff;
+    background-color: #3e3d3d;
 }
 
 /* 键盘 kbd 标签样式 */
@@ -249,7 +251,7 @@ mark {
 }
 
 .white-color {
-    color: #fff;
+    color: #ffffff;
 }
 
 .progress-bar {
