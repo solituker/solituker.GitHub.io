@@ -29,7 +29,7 @@
 
     <script src="/libs/jquery/jquery.min.js"></script>
 
-<meta name="generator" content="Hexo 6.3.0"><link rel="stylesheet" href="/css/prism.css" type="text/css"></head>
+<meta name="generator" content="Hexo 6.3.0"><link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
 
 
 
@@ -513,13 +513,25 @@
 <td><em><strong>文字示例</strong></em></td>
 </tr>
 </tbody></table>
-<h3 id="块引用"><a href="#块引用" class="headerlink" title="块引用"></a>块引用</h3><p>要达到块引用的效果,可以在文字或段落的前方添加<code>&gt;</code></p>
-<pre><code>`&gt;`这段话是一个文字示例
-</code></pre>
-<p>渲染效果如下</p>
+<h3 id="块引用"><a href="#块引用" class="headerlink" title="块引用"></a>块引用</h3><p>要达到块引用的效果,可以在文字或段落的前方添加<code>&gt;</code><br>渲染效果如下<br><code>&gt;</code>这段话是一个文字示例</p>
 <blockquote>
 <p>这段话是一个文字示例文字示例</p>
 </blockquote>
+<p>块引用可以引用一整个段落，并且块引用可以嵌套。在要嵌套的段落前添加一个 <code>&gt;&gt;</code> 符号。</p>
+<blockquote>
+<p>这句话是一个文字示例</p>
+<blockquote>
+<p>这句话是一个文字示例</p>
+</blockquote>
+</blockquote>
+<p>并且块引用中可以包含其他Markdown格式的元素<br>例如</p>
+<pre><code>&gt; #### The quarterly results look great!
+&gt;
+&gt; - Revenue was off the chart.
+&gt; - Profits were higher than ever.
+&gt;
+&gt;  *Everything* is going according to **plan**.
+</code></pre>
 
                 
             </div>
