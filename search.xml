@@ -5,23 +5,10 @@
     
     <entry>
       <title></title>
-      <link href="/2023/08/05/first/"/>
-      <url>/2023/08/05/first/</url>
+      <link href="/2023/08/06/Markdown-%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95-day-1/"/>
+      <url>/2023/08/06/Markdown-%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95-day-1/</url>
       
-        <content type="html"><![CDATA[<p><em>斜体文本</em><br><em>斜体文本</em><br><strong>粗体文本</strong><br><strong>粗体文本</strong><br><em><strong>粗斜体文本</strong></em><br><em><strong>粗斜体文本</strong></em></p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>test</title>
-      <link href="/2023/08/05/test/"/>
-      <url>/2023/08/05/test/</url>
-      
-        <content type="html"><![CDATA[<p>测试</p><img src="/2023/08/05/test/test.jpg" class="" title="图片引用方法一">]]></content>
+        <content type="html"><![CDATA[<h1 id="Markdown-语言学习记录-day-1"><a href="#Markdown-语言学习记录-day-1" class="headerlink" title="Markdown 语言学习记录 day 1"></a>Markdown 语言学习记录 day 1</h1><h2 id="一-简介"><a href="#一-简介" class="headerlink" title="一.简介"></a>一.简介</h2><ul><li>Markdown 是一种轻量级的标记语言，可用于在纯文本文档中添加格式化元素。Markdown 由 John Gruber 于 2004 年创建，如今已成为世界上最受欢迎的标记语言之一。</li><li>Markdown 语法的首要设计目标是尽可能易读。基于这个目标，Markdown 格式的文档能够以纯文本形式原样发布，而不会看起来像被填满了标签或格式化指令。</li></ul><hr><h2 id="title-Markdown-语言学习记录-day-1date-2023-08-06-11-14-21tags"><a href="#title-Markdown-语言学习记录-day-1date-2023-08-06-11-14-21tags" class="headerlink" title="title: Markdown 语言学习记录 day 1date: 2023-08-06 11:14:21tags:"></a>title: Markdown 语言学习记录 day 1<br>date: 2023-08-06 11:14:21<br>tags:</h2>]]></content>
       
       
       
