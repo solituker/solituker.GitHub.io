@@ -4,25 +4,6 @@
   
     
     <entry>
-      <title>Java学习记录 day 1</title>
-      <link href="/2023/08/08/Java%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95-day-1/"/>
-      <url>/2023/08/08/Java%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95-day-1/</url>
-      
-        <content type="html"><![CDATA[<h1 id="Java学习记录-day-1"><a href="#Java学习记录-day-1" class="headerlink" title="Java学习记录 day 1"></a>Java学习记录 day 1</h1><h3 id="代码示例"><a href="#代码示例" class="headerlink" title="代码示例"></a>代码示例</h3><pre><code>public class Hello &#123;    public static void main(String[] args)     &#123;        System.out.println(&quot;Hello, world!&quot;);    &#125;&#125;</code></pre><p>其中的<code>class</code>被称为类，<code>Hello</code>叫做类名（大小写敏感）<br>其中定义了一个叫<code>main</code>的方法，用<code>（）</code>括起来的叫方法参数，<code>void</code>是返回类型<br>方法的每一行需要用<code>;</code>结束<br>在类的内部可以定义多个方法，每个方法依次执行，且方法内部的语句才是真正的执行代码</p><pre><code>System.out.println(&quot;Hello, world!&quot;);</code></pre><p>这一行代码的作用是输出”Hello,world!”到屏幕中<br>注意：</p><ul><li>一个Java源码只能定义一个<code>public</code>类型的类，并且这个类的名称要和文件名完全一致</li><li>类名必须以英文字母开头，后接字母，数字和下划线的组合（习惯上以大写字母开头）</li></ul><p>在Java中，需要使用注释来使程序简洁明了<br>有三种注释的方法<br>第一种是单行注释，以双斜线开头，到这一行的行尾结束</p><pre><code>//这是注释</code></pre><p>第二种是多行注释，以<code>/*</code>开头，以<code>*/</code>结束，可以有多行</p><pre><code>/*这是注释注释注释/*</code></pre><p>第三种是一种特殊的多行注释,以<code>/**</code>开头，以<code>*/</code>结束，如果有多行，每行以星号开头</p><pre><code>/***注释*注释*/</code></pre><p>这种特殊的多行注释需要写在类和方法的定义处，可以用于自动创建文档。（目前不知道什么意思）</p>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> Java </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>Markdown 语言学习记录 day 2</title>
       <link href="/2023/08/08/Markdown-%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95-day-2/"/>
       <url>/2023/08/08/Markdown-%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95-day-2/</url>
